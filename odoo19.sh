@@ -18,7 +18,11 @@ echo "System updated and upgraded successfully!"
 echo ""
 
 echo "====================== INSTALLING PIP & PYTHON 3.12 ======================"
-sudo apt install -y python3-pip python3.12 python3.12-venv python3.12-dev libpq-dev
+sudo apt-get update && \
+sudo apt-get install -y \
+  python3-pip python3.12 python3.12-venv python3.12-dev libpq-dev \
+  libldap2-dev libsasl2-dev
+
 echo "Python 3.12, pip, and system libs installed!"
 echo ""
 
