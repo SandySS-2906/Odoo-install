@@ -154,7 +154,7 @@ pip install --no-cache-dir \
     rjsmin==1.1.0 \
     pyopenssl==21.0.0 \
     qrcode==7.3.1 \
-    cbor2==5.4.2 \
+    cbor2==5.4.2.post1 \
     chardet==4.0.0 \
     cryptography==3.4.8 \
     decorator==4.4.2 \
